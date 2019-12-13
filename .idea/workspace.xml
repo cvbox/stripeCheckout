@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69cb701e-731d-4233-a540-f88dffea796a" name="Default Changelist" comment="[!] online config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/development.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/production.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/production.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/cv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/templateResume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/ResumeEditor.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/ResumeEditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/ResumeEditor.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/ResumeEditor.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/app/fonts/iconfont.34ea3475.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/app/fonts/iconfont.4d5a9051.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/app/fonts/iconfont.8efbc988.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/app/img/iconfont.f0e930ef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/app/img/logo_stripe.55f8ae45.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/account.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/cvs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/email.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/noAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/pay.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/pay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/templateResume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/payindex.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/payindex.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/preview.ejs" beforeDir="false" />
+    </list>
+    <list id="3632699a-80f1-45bf-957c-4ad06e43c93b" name="ignore" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f62f10b2e9dfb06346d75c496fe34c48fa933bb9" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1T1HaQTBAr5gj8FCmA1sLumkvdj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/public/stylesheets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration default="true" type="NodeJSConfigurationType" node-parameters="start">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="start" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="start" path-to-js-file="$PROJECT_DIR$/routes/index.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69cb701e-731d-4233-a540-f88dffea796a" name="Default Changelist" comment="" />
+      <changelist id="3632699a-80f1-45bf-957c-4ad06e43c93b" name="ignore" comment="" />
+      <created>1572620744476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572620744476</updated>
+      <workItem from="1572620746434" duration="4001000" />
+      <workItem from="1572655941456" duration="4218000" />
+      <workItem from="1572666706314" duration="4133000" />
+      <workItem from="1572747253693" duration="18404000" />
+      <workItem from="1572861485368" duration="7364000" />
+      <workItem from="1572969380116" duration="38211000" />
+      <workItem from="1573217090249" duration="26029000" />
+      <workItem from="1573434392800" duration="598000" />
+      <workItem from="1573482607067" duration="6312000" />
+      <workItem from="1573543795549" duration="3176000" />
+      <workItem from="1573608863210" duration="2852000" />
+      <workItem from="1573619421623" duration="4571000" />
+      <workItem from="1573636336889" duration="3000" />
+      <workItem from="1573649434037" duration="20593000" />
+      <workItem from="1573874096147" duration="4700000" />
+      <workItem from="1573942578001" duration="5115000" />
+      <workItem from="1573955677014" duration="67000" />
+      <workItem from="1573971802513" duration="970000" />
+      <workItem from="1573986493030" duration="6814000" />
+      <workItem from="1574033638513" duration="4343000" />
+      <workItem from="1574082910036" duration="31190000" />
+      <workItem from="1574288458135" duration="10848000" />
+      <workItem from="1574488975498" duration="967000" />
+      <workItem from="1576249956088" duration="1126000" />
+    </task>
+    <task id="LOCAL-00005" summary="[!] print preview page as pdf file">
+      <created>1572770450146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572770450146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[!] local html support">
+      <created>1572830087271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572830087271</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[!] bug fix ,add res type for html">
+      <created>1572831895408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572831895408</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[!] preivew from ejs">
+      <created>1572833967059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572833967059</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[!] save to redis , and load page data from redis ,then make it as a pdf file">
+      <created>1572835748597</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572835748597</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[!] add pool for puppeteer">
+      <created>1572877692646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572877692646</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[!] pdf config for print">
+      <created>1572882160824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1572882160824</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[!] add log and auth">
+      <created>1573178564217</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573178564218</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[!] add mongo db cvmodel crud">
+      <created>1573192131370</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573192131370</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[!] add user resumeid">
+      <created>1573223208835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573223208835</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[!] add start page">
+      <created>1573284849603</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573284849603</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[!] change username to email">
+      <created>1573312101033</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573312101033</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[!] add redis support">
+      <created>1573341332567</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573341332567</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[!] add mongo connection for session">
+      <created>1573343223144</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573343223144</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[!] add mongo connection for session">
+      <created>1573372137520</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573372137520</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[!] email">
+      <created>1573530352725</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1573530352726</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[!] login page">
+      <created>1573621886823</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1573621886823</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[!] pdf print &amp; preview">
+      <created>1573651563504</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573651563504</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[!] add comment for code">
+      <created>1573735947891</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573735947891</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[!] helmet">
+      <created>1573741336086</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573741336086</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[!] helmet">
+      <created>1573745160006</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573745160006</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[!] add stripe support">
+      <created>1573808733577</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573808733577</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[!] add stripe support">
+      <created>1573809082722</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573809082722</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[!] add stripe support">
+      <created>1573909072472</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1573909072472</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[!] env config">
+      <created>1573945120746</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1573945120746</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[!] charge debug">
+      <created>1573947825455</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1573947825456</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[!] charge debug">
+      <created>1573947850435</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1573947850435</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[!] flow log uid &amp; params support">
+      <created>1573993515756</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1573993515756</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[!] flow log uid &amp; params support">
+      <created>1573994899418</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1573994899418</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[!] flow log uid &amp; params support">
+      <created>1573994930566</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1573994930566</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[!] flow log uid &amp; params support">
+      <created>1573994955137</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1573994955137</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[!] add account email">
+      <created>1574038236011</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1574038236012</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[!] add account email">
+      <created>1574150282745</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1574150282745</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[!] add square template">
+      <created>1574155483956</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155483956</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[!] add square template">
+      <created>1574157042763</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574157042763</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[!] add square template">
+      <created>1574168104299</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1574168104299</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[!] add square template">
+      <created>1574218567023</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1574218567023</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[!] add square template">
+      <created>1574219213481</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1574219213481</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[!] tag 1.0">
+      <created>1574228834194</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1574228834194</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[!] tag 1.0">
+      <created>1574229369217</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1574229369217</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[!] tag 1.0 add resume resource">
+      <created>1574231215400</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1574231215401</updated>
+    </task>
+    <task id="LOCAL-00046" summary="[!] tag 1.0 add resume resource">
+      <created>1574250283174</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1574250283176</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[!] tag 1.0 add resume resource">
+      <created>1574291143801</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1574291143801</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[!] tag 1.0 add resume resource">
+      <created>1574293022732</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1574293022732</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[!] remove req params log file">
+      <created>1574301470699</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1574301470699</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[!] online config">
+      <created>1574303210742</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1574303210743</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[!] online config">
+      <created>1574305473876</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305473876</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[!] online config">
+      <created>1574305558595</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1574305558595</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[!] online config">
+      <created>1574309699644</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1574309699645</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="[!] save to redis , and load page data from redis ,then make it as a pdf file" />
+    <MESSAGE value="[!] add pool for puppeteer" />
+    <MESSAGE value="[!] pdf config for print" />
+    <MESSAGE value="[!] add log and auth" />
+    <MESSAGE value="[!] add mongo db cvmodel crud" />
+    <MESSAGE value="[!] add user resumeid" />
+    <MESSAGE value="[!] add start page" />
+    <MESSAGE value="[!] change username to email" />
+    <MESSAGE value="[!] add redis support" />
+    <MESSAGE value="[!] add mongo connection for session" />
+    <MESSAGE value="[!] email" />
+    <MESSAGE value="[!] login page" />
+    <MESSAGE value="[!] pdf print &amp; preview" />
+    <MESSAGE value="[!] add comment for code" />
+    <MESSAGE value="[!] helmet" />
+    <MESSAGE value="[!] add stripe support" />
+    <MESSAGE value="[!] env config" />
+    <MESSAGE value="[!] charge debug" />
+    <MESSAGE value="[!] flow log uid &amp; params support" />
+    <MESSAGE value="[!] add account email" />
+    <MESSAGE value="[!] add square template" />
+    <MESSAGE value="[!] tag 1.0" />
+    <MESSAGE value="[!] tag 1.0 add resume resource" />
+    <MESSAGE value="[!] remove req params log file" />
+    <MESSAGE value="[!] online config" />
+    <option name="LAST_COMMIT_MESSAGE" value="[!] online config" />
+  </component>
+</project>
